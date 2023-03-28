@@ -4,7 +4,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ## Overview
 
-Live Site URL: [Frontend Mentor | Results summary component]()
+Live Site URL: [Frontend Mentor | Results summary component](https://reddfoxie.github.io/FEM-Challenge_Results-summary/)
 
 ### Useful resources
 
