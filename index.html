@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+<body>
+  <div class="card">
+    
+    <div class="sheet result-sheet">
+      <h2 class="your-result">Your Result</h2>
+      <div class="result">
+        <p class="final-score">76</p>
+        <p class="final-max-score">of 100</p>
+      </div>
+      <div class="result-text">
+        <h1>Great</h1>
+        <p>
+          You scored higher than 65% of the people who have taken these tests.
+        </p>  
+      </div>
+    </div>
+
+    <div class="sheet statistics-sheet">
+      <h2 class="summary">Summary</h2>
+      <div class="categories-list">
+        <div class="category-div" id="reaction-div">
+          <p class="category" id="reaction">
+            <img src="./src/images/icon-reaction.svg" alt="#" class="category-icon" id="reaction-icon">
+            Reaction
+          </p>
+          <p class="score" id="score-reaction">80 <span class="max-score">/ 100</span></p>
+        </div>
+        <div class="category-div" id="memory-div">
+          <p class="category" id="memory">
+            <img src="./src/images/icon-memory.svg" alt="#" class="category-icon" id="memory-icon">
+            Memory
+          </p>
+          <p class="score" id="score-memory">92 <span class="max-score">/ 100</span></p>
+        </div>
+        <div class="category-div" id="verbal-div">
+          <p class="category" id="verbal">
+            <img src="./src/images/icon-verbal.svg" alt="#" class="category-icon" id="verbal-icon">
+            Verbal
+          </p>
+          <p class="score" id="score-verbal">61 <span class="max-score">/ 100</span></p>
+        </div>
+        <div class="category-div" id="visual-div">
+          <p class="category" id="visual">
+            <img src="./src/images/icon-visual.svg" alt="#" class="category-icon" id="visual-icon">
+            Visual
+          </p>
+          <p class="score" id="score-visual">72 <span class="max-score">/ 100</span></p>
+        </div>
+      </div>
+
+      <button class="btn">Continue</button>
+    </div>
+  </div>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/ReddFoxie" target="_blank">Redd</a>.
+  </footer>
+</body>
+</html>

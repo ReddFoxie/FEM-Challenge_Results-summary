@@ -1,0 +1,38 @@
+@media only screen and (max-width: 800px) {
+  .card {
+    width: 600px;
+  }
+
+  .card .sheet{
+    padding: 2rem;
+  }
+
+  .card .result-sheet .result-text p {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    border-radius: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card .sheet {
+    gap: 1rem;
+  }
+
+  .card .result-sheet {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding-inline: 10%;
+  }
+  .card .result-sheet .result{
+    width: 180px;
+    height: 180px;
+  }
+}
